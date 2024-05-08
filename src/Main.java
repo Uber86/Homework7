@@ -88,8 +88,8 @@ public class Main {
         // Задача №8
         int comet = 79;
         int year1  = 0;
-        for ( ; year1 < 2100 ; year1 = year1 +comet  ) {
-            if (year1 > 1824 && year1 < 2124) {
+        for ( ; year1 < 2124 ; year1 = year1 +comet  ) {
+            if (year1 > 1824 ) {
                 System.out.println(year1);
             }
         }
